@@ -4,7 +4,7 @@ import Button from 'elements/Button'
 
 export default function MostPicked(props) {
     return (
-        <section className="container" ref={props.refMostPicked} style={{height: 2000}}>
+        <section className="container" ref={props.refMostPicked}>
             <h4 className="mb-3">Most Picked</h4>
             <div className="container-grid">
                 {
@@ -13,7 +13,7 @@ export default function MostPicked(props) {
                         <div className="card card-featured">
                             <div className="tag">
                                 ${item.price}
-                                <span className="fonr-weight light">per {item.unit}</span>
+                                <span className="fonr-weight light"> per {item.unit}</span>
                             </div>
                             <figure className="img-wrapper">
                                 <img src={item.imageUrl} alt={item.name} className="img-cover" />
