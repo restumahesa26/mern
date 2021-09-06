@@ -38,19 +38,19 @@ export default function Hero(props) {
                     </Button>
 
                     <div className="row" style={{ marginTop: 80 }}>
-                        <div className="col-auto" style={{ marginRight:35 }}>
+                        <div className="col-auto" style={{ marginRight:25 }}>
                             <img src={IconTraveler} alt={`${props.data.travelers} Travelers`} width="36" height="36" />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.travelers)} <span className="text-gray-500 font-weight-light">Travelers</span>
                             </h6>
                         </div>
-                        <div className="col-auto" style={{ marginRight:35 }}>
+                        <div className="col-auto" style={{ marginRight:25 }}>
                             <img src={IconTreasure} alt={`${props.data.treasures} Treasure`} width="36" height="36" />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.treasures)} <span className="text-gray-500 font-weight-light">Treasure</span>
                             </h6>
                         </div>
-                        <div className="col-auto" style={{ marginRight:35 }}>
+                        <div className="col-auto" style={{ marginRight:25 }}>
                             <img src={IconCities} alt={`${props.data.cities} Cities`} width="36" height="36" />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">Cities</span>
